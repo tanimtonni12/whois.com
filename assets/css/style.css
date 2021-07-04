@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*css reset code sart */
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto 0px;
+
+}
+input:focus{
+    outline: none;
+}
+/*css reset code end*/
+body{
+    background-color: gray;
+}
+.header{
+    background-color: white;
+    padding: 14px 0px;
+
+}
+.header .logo{
+    width: 60%;
+    float: left;
+    
+    
+}
+
+.header:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header .search{
+    width: 40%;
+    float: left;
+    margin-top: 13px;
+   
+}
+.header .search:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header .search input{
+    border: 1px solid #dedede;
+    background-color: #f3f3f3;
+    font-size: 15px;
+    padding: 8px 6px;
+    width: 75%;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    
+  
+}
+.header .search button{
+    border: 1px solid #f38944;
+    background-color: #f38944;
+    font-size: 15px;
+    padding: 8px 10px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 25%;
+    float: left;
+    border-radius: 0px 5px 5px 0px;
+    
+    box-sizing: border-box;
+  
+}
+.menu{
+    background-color: #303030;
+}
+.menu:after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.menu .main-menu{
+    width: 80%;
+    float: left;
+}
+.menu .main-menu ul li{
+    display: inline-block;
+}
+.menu .main-menu ul li a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.menu .main-menu ul li:hover a{
+    background-color: white;
+    color: #303030;
+}
+
+.menu .side-menu{
+    width: 20%;
+    float: left;
+   
+  
+}
+.menu .side-menu ul li{
+    display: inline-block;
+}
+.menu .side-menu ul li a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    
+
+}
+.menu .side-menu ul li:hover a{
+    background-color: white;
+    color: #303030;
+}
+
+
+.menu .side-menu ul li a span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #f7892c;
+    vertical-align: top;
+    text-align: center;
+   
+   
+}
+.banner{
+    height: 426px;
+    background-image: url(../img/homepage_banner.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.banner .banner-content h1{
+    font-size: 43px;
+    font-weight: 900;
+    color:#1c1c1c;
+    width:55% ;
+    margin: 50px auto 0px;
+    text-align: center;
+
+}
+.banner .banner-content .search{
+    width: 820px;
+    margin:20px auto;
+    box-shadow: 6px 3px 18px rgb(132 166 201 / 64%);
+}
+.bannerc.banner-content .search:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.banner  .banner-content .search input{
+    width: 80%;
+    font-size: 20px;
+    padding: 25px 30px ;
+    box-sizing: border-box;
+    border-right: 0px;
+    float: left;
+    border: 1px solid #88a1ba;
+    border-radius: 5px 0px 5px 0px;
+     color: #242525;
+}
+.banner .banner-content .search button{
+    width: 20%;
+    padding: 25px 30px ;
+    font-size: 20px;
+    font-weight:700;
+    
+    border: 1px solid #f38944;
+    background-color: #f38944;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    text-transform: uppercase;
+    
+    border-radius: 0px 5px 5px 0px ;
+    float: left;
+}
+.banner .banner-content .offer{
+    width: 820px;
+    margin: auto;
+    
+}
+.banner .banner-content .offer:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner .banner-content .offer a{
+    font-size: 15px;
+    font-weight: 700;
+    color: #ff6e00;
+}
+.banner .banner-content .offer a:last-child{
+    float: right;
+}
+.banner .banner-content p{
+    color: #1c1c1c;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+.service{
+    background-color: white;
+    padding: 50px 0px;
+}
+.service h2{
+    text-align: center;
+    color: #303030;
+    font-size: 35px;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+.service p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    color: #303030;
+
+}
+.service .price-table {
+    margin-top: 30px;
+    text-align: center;
+   
+    
+}
+
+.service .price-table .price-table-item{
+    width: 24%;
+    padding: 30px;
+    border: 1px solid #dedede;
+    text-align: center;
+    border-radius: 6px;
+    background-color:#f7f7f7 ;
+    display: inline-block;
+    margin: 0px 10px;
+ 
+    
+   
+}
+.service .price-table .price-table-item:hover{
+    border: 1px solid  #f5893a;
+}
+
+
+.service .price-table .price-table-item .feature-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #d7d7d7;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.service .price-table .price-table-item .feature-img img{
+    transform: translate(0px,36px);
+}
+.service .price-table .price-table-item:hover .feature-img{
+    background-color:#f5893a ;
+}
+.service .price-table .price-table-item h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #303030;
+}
+.service .price-table .price-table-item .pricing{
+    margin: 20px 0px;
+}
+.service .price-table .price-table-item .pricing > span{
+    transform: translate(-27px,7px);
+    font-size: 14px;
+    display: block;
+}
+
+.service .price-table .price-table-item .pricing h4{
+    font-size: 54px;
+    font-weight: 900px;
+}
+.service .price-table .price-table-item .pricing h4 span:nth-child(1){
+    font-size: 25px;
+    vertical-align: top;
+
+}
+.service .price-table .price-table-item .pricing h4 span:nth-child(2){
+    font-size: 16px;
+    vertical-align: bottom;
+
+}
+.service .price-table .price-table-item:hover .pricing{
+    color: #f5893a;
+}
+.service .price-table .price-table-item  .details ul{
+    text-align: center;
+    font-size: 16px;
+    color:#7f7f7f
+}
+
+.service .price-table .price-table-item  .details ul li{
+    padding: 5px 0px;
+}
+
+.service .price-table .price-table-item .anchor{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.service .price-table .price-table-item .anchor a{
+    border: 1px solid #bcbcbc;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: none;
+    padding: 11px 28px;
+    color: #303030;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+   
+    
+}
+.service .price-table .price-table-item:hover .anchor a{
+    background-color:#f5893a ;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
